@@ -39,8 +39,9 @@ describe("Footer", () => {
 	it("renders copyright with dynamic current year", () => {
 		renderWithTranslations(<Footer />);
 
-		const currentYear = new Date().getFullYear();
-		expect(screen.getByText(/2026 Greg Mozer \| All rights reserved/)).toBeInTheDocument();
+		expect(
+			screen.getByText(/2026 Greg Mozer \| All rights reserved/),
+		).toBeInTheDocument();
 	});
 
 	it("renders copyright year matching new Date().getFullYear()", () => {
@@ -48,7 +49,9 @@ describe("Footer", () => {
 
 		const currentYear = new Date().getFullYear();
 		// Verify the rendered text contains the current year, not hardcoded "2023"
-		expect(screen.getByText(new RegExp(`${currentYear} Greg Mozer`))).toBeInTheDocument();
+		expect(
+			screen.getByText(new RegExp(`${currentYear} Greg Mozer`)),
+		).toBeInTheDocument();
 	});
 
 	it("does not render the old hardcoded year 2023", () => {
