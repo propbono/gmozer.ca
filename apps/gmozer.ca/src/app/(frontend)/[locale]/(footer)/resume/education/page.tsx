@@ -36,12 +36,6 @@ export default async function Education() {
 
 	const educationItems = [
 		{
-			degree: t("items.aws.degree"),
-			institution: t("items.aws.institution"),
-			program: t("items.aws.program"),
-			duration: t("items.aws.duration"),
-		},
-		{
 			degree: t("items.wit.degree"),
 			institution: t("items.wit.institution"),
 			program: t("items.wit.program"),

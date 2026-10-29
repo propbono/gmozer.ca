@@ -419,12 +419,6 @@
 			"title": "Education",
 			"description": "A foundation of formal education combined with industry-recognized certifications.",
 			"items": {
-				"aws": {
-					"institution": "AWS",
-					"degree": "AWS Certified Cloud Practitioner",
-					"program": "",
-					"duration": "2023 - 2025"
-				},
 				"wit": {
 					"institution": "WIT Academy, Warsaw, Poland",
 					"degree": "N/A",
@@ -531,7 +525,14 @@
 				"description": "AI-powered technical interview practice. Ace your architecture interview with adaptive system design challenges tailored to your target job description.",
 				"liveLink": "https://dev-slot.vercel.app/",
 				"githubLink": "https://github.com/propbono/dev-slot",
-				"stack": ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+				"stack": [
+					"Astro",
+					"React",
+					"TypeScript",
+					"Tailwind CSS",
+					"Supabase",
+					"Vercel AI SDK"
+				],
 				"image": "/work/dev-slot.avif"
 			},
 			"project5": {
@@ -723,7 +724,7 @@
 			"type": "website",
 			"locale": "en_CA",
 			"title": "Greg Mozer - Portfolio",
-			"description": "Senior Frontend Engineer specializing in React, Next.js, and TypeScript with over 5 years of experience building scalable web applications.",
+			"description": "Senior Frontend Engineer specializing in React, Next.js, and TypeScript with over 7 years of experience building scalable web applications.",
 			"siteName": "Greg Mozer",
 			"image": {
 				"url": "https://gmozer.ca/og.jpg",
@@ -735,7 +736,7 @@
 		"twitter": {
 			"card": "summary_large_image",
 			"title": "Greg Mozer - Portfolio",
-			"description": "Senior Frontend Engineer specializing in React, Next.js, and TypeScript with over 5 years of experience building scalable web applications.",
+			"description": "Senior Frontend Engineer specializing in React, Next.js, and TypeScript with over 7 years of experience building scalable web applications.",
 			"image": "https://gmozer.ca/og.jpg",
 			"creator": "@GregMozer"
 		}
