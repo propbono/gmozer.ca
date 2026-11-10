@@ -32,10 +32,10 @@ describe("Reordered portfolio projects", () => {
 			githubLink: "https://github.com/propbono/gabeyreglobal.ca",
 		},
 		project4: {
-			titleEn: "Dev Slot",
-			titlePl: "Dev Slot",
-			image: "/work/dev-slot.avif",
-			liveLink: "https://dev-slot.vercel.app/",
+			titleEn: "Archdrill",
+			titlePl: "Archdrill",
+			image: "/work/archdrill.avif",
+			liveLink: "https://archdrill.com",
 			githubLink: "https://github.com/propbono/dev-slot",
 		},
 		project7: {

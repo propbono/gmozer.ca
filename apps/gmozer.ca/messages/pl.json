@@ -520,10 +520,10 @@
 				"image": "/work/gabeyreglobal.avif"
 			},
 			"project4": {
-				"title": "Dev Slot",
+				"title": "Archdrill",
 				"category": "Full stack",
-				"description": "Praktyka rozmów technicznych wspierana przez AI. Przygotuj się do rozmowy o architekturę systemów z adaptacyjnymi wyzwaniami dopasowanymi do opisu stanowiska.",
-				"liveLink": "https://dev-slot.vercel.app/",
+				"description": "Trener rozmów o projektowaniu systemów wspierany przez AI. Wklej opis stanowiska, a otrzymasz dopasowane wyzwanie z zakresu projektowania systemów z adaptacyjną oceną odpowiedzi.",
+				"liveLink": "https://archdrill.com",
 				"githubLink": "https://github.com/propbono/dev-slot",
 				"stack": [
 					"Astro",
@@ -531,9 +531,11 @@
 					"TypeScript",
 					"Tailwind CSS",
 					"Supabase",
-					"Vercel AI SDK"
+					"Stripe",
+					"DeepSeek",
+					"Fly.io"
 				],
-				"image": "/work/dev-slot.avif"
+				"image": "/work/archdrill.avif"
 			},
 			"project5": {
 				"title": "Wizzcode Music App",
