@@ -524,7 +524,7 @@
 				"category": "Full stack",
 				"description": "AI system-design interview coach. Paste a job description and get a tailored system-design challenge with adaptive follow-up evaluation.",
 				"liveLink": "https://archdrill.com",
-				"githubLink": "https://github.com/propbono/dev-slot",
+				"githubLink": "",
 				"stack": [
 					"Astro",
 					"React",

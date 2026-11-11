@@ -36,7 +36,7 @@ describe("Reordered portfolio projects", () => {
 			titlePl: "Archdrill",
 			image: "/work/archdrill.avif",
 			liveLink: "https://archdrill.com",
-			githubLink: "https://github.com/propbono/dev-slot",
+			githubLink: "",
 		},
 		project7: {
 			titleEn: "Vault Onboarding",
