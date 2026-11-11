@@ -524,7 +524,7 @@
 				"category": "Full stack",
 				"description": "Trener rozmów o projektowaniu systemów wspierany przez AI. Wklej opis stanowiska, a otrzymasz dopasowane wyzwanie z zakresu projektowania systemów z adaptacyjną oceną odpowiedzi.",
 				"liveLink": "https://archdrill.com",
-				"githubLink": "https://github.com/propbono/dev-slot",
+				"githubLink": "",
 				"stack": [
 					"Astro",
 					"React",
