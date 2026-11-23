@@ -479,47 +479,6 @@
 		},
 		"projects": {
 			"project1": {
-				"title": "Farah Freight Group",
-				"category": "Frontend",
-				"description": "Strona firmowa Farah Freight Group. Aplikacja jednostronicowa stworzona z użyciem NextJS i Nodemailer do wysyłania emaili.",
-				"liveLink": "https://prod-farahfg.vercel.app/",
-				"githubLink": "https://github.com/propbono/farahfg.com",
-				"stack": [
-					"NextJS",
-					"React",
-					"TypeScript",
-					"TailwindCSS",
-					"Vercel",
-					"Nodemailer"
-				],
-				"image": "/work/farah-freight.avif"
-			},
-			"project2": {
-				"title": "Gemprint",
-				"category": "Full stack",
-				"description": "Strona firmowa Gemprint. Aplikacja jednostronicowa stworzona z użyciem NextJS i NextAuth. Obecnie w trakcie dodawania panelu do zarządzania zamówieniami druku.",
-				"liveLink": "https://gemprint.ca/",
-				"githubLink": "https://github.com/propbono/gemprint.ca",
-				"stack": [
-					"Next.js",
-					"TypeScript",
-					"Tailwind CSS",
-					"Prisma",
-					"Vercel",
-					"Resend"
-				],
-				"image": "/work/gemprint.avif"
-			},
-			"project3": {
-				"title": "Gabeyre Global Inc",
-				"category": "Full stack",
-				"description": "Strona firmowa Gabeyre Global Inc, firmy logistycznej i transportowej. Zbudowana z użyciem TanStack Start.",
-				"liveLink": "https://gabeyreglobal.com/",
-				"githubLink": "https://github.com/propbono/gabeyreglobal.ca",
-				"stack": ["TanStack Start", "TypeScript", "Tailwind CSS", "Vercel"],
-				"image": "/work/gabeyreglobal.avif"
-			},
-			"project4": {
 				"title": "Archdrill",
 				"category": "Full stack",
 				"description": "Trener rozmów o projektowaniu systemów wspierany przez AI. Wklej opis stanowiska, a otrzymasz dopasowane wyzwanie z zakresu projektowania systemów z adaptacyjną oceną odpowiedzi.",
@@ -536,6 +495,47 @@
 					"Fly.io"
 				],
 				"image": "/work/archdrill.avif"
+			},
+			"project2": {
+				"title": "Farah Freight Group",
+				"category": "Frontend",
+				"description": "Strona firmowa Farah Freight Group. Aplikacja jednostronicowa stworzona z użyciem NextJS i Nodemailer do wysyłania emaili.",
+				"liveLink": "https://prod-farahfg.vercel.app/",
+				"githubLink": "https://github.com/propbono/farahfg.com",
+				"stack": [
+					"NextJS",
+					"React",
+					"TypeScript",
+					"TailwindCSS",
+					"Vercel",
+					"Nodemailer"
+				],
+				"image": "/work/farah-freight.avif"
+			},
+			"project3": {
+				"title": "Gemprint",
+				"category": "Full stack",
+				"description": "Strona firmowa Gemprint. Aplikacja jednostronicowa stworzona z użyciem NextJS i NextAuth. Obecnie w trakcie dodawania panelu do zarządzania zamówieniami druku.",
+				"liveLink": "https://gemprint.ca/",
+				"githubLink": "https://github.com/propbono/gemprint.ca",
+				"stack": [
+					"Next.js",
+					"TypeScript",
+					"Tailwind CSS",
+					"Prisma",
+					"Vercel",
+					"Resend"
+				],
+				"image": "/work/gemprint.avif"
+			},
+			"project4": {
+				"title": "Gabeyre Global Inc",
+				"category": "Full stack",
+				"description": "Strona firmowa Gabeyre Global Inc, firmy logistycznej i transportowej. Zbudowana z użyciem TanStack Start.",
+				"liveLink": "https://gabeyreglobal.com/",
+				"githubLink": "https://github.com/propbono/gabeyreglobal.ca",
+				"stack": ["TanStack Start", "TypeScript", "Tailwind CSS", "Vercel"],
+				"image": "/work/gabeyreglobal.avif"
 			},
 			"project5": {
 				"title": "Wizzcode Music App",

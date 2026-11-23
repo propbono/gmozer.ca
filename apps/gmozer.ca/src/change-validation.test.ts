@@ -5,12 +5,12 @@ import pl from "../messages/pl.json";
 
 describe("Farah Freight Group link fix", () => {
 	it("uses the Vercel deployment URL in English locale", () => {
-		const project = en.work.projects.project1;
+		const project = en.work.projects.project2;
 		expect(project.liveLink).toBe("https://prod-farahfg.vercel.app/");
 	});
 
 	it("uses the Vercel deployment URL in Polish locale", () => {
-		const project = pl.work.projects.project1;
+		const project = pl.work.projects.project2;
 		expect(project.liveLink).toBe("https://prod-farahfg.vercel.app/");
 	});
 
@@ -24,19 +24,26 @@ describe("Farah Freight Group link fix", () => {
 
 describe("Reordered portfolio projects", () => {
 	const projectChecks = {
-		project3: {
-			titleEn: "Gabeyre Global Inc",
-			titlePl: "Gabeyre Global Inc",
-			image: "/work/gabeyreglobal.avif",
-			liveLink: "https://gabeyreglobal.com/",
-			githubLink: "https://github.com/propbono/gabeyreglobal.ca",
-		},
-		project4: {
+		project1: {
 			titleEn: "Archdrill",
 			titlePl: "Archdrill",
 			image: "/work/archdrill.avif",
 			liveLink: "https://archdrill.com",
 			githubLink: "",
+		},
+		project3: {
+			titleEn: "Gemprint",
+			titlePl: "Gemprint",
+			image: "/work/gemprint.avif",
+			liveLink: "https://gemprint.ca/",
+			githubLink: "https://github.com/propbono/gemprint.ca",
+		},
+		project4: {
+			titleEn: "Gabeyre Global Inc",
+			titlePl: "Gabeyre Global Inc",
+			image: "/work/gabeyreglobal.avif",
+			liveLink: "https://gabeyreglobal.com/",
+			githubLink: "https://github.com/propbono/gabeyreglobal.ca",
 		},
 		project7: {
 			titleEn: "Vault Onboarding",
